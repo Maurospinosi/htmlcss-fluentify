@@ -1,0 +1,72 @@
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+.bar-top::after{
+  clear: both;
+  content: "";
+  display: block;
+}
+a{
+  text-decoration: none;
+}
+.bar-top li{
+  list-style: none;
+  display: inline-block;
+}
+.bar-top{
+  background-color: blue;
+  text-align: center;
+  line-height: 100px;
+  width: 1500px;
+  margin: auto;
+  font-family: 'Roboto', sans-serif;
+  font-size: 10px;
+  color: white;
+}
+
+.logo-top{
+  margin: right 10px;
+  float: left;
+  width: 20%;
+}
+
+.menu-top{
+  float: left;
+  width: 40%;
+}
+.menu-top li{
+  margin-left: 10px;
+}
+.menu-top a{
+  color: white;
+}
+
+.right-top{
+  width: 40%;
+  float: left;
+}
+.buttom{
+  height: 30px;
+  width: 100px;
+  margin-left: 10px;
+  font-family: 'Roboto', sans-serif;
+  background-color: blue;
+  padding: 10%;
+  color: white;
+  border: white 1px solid;
+  border-radius: 10%;
+  position: relative;
+}
+.buttom div{
+  position: absolute;
+  left: 50%;
+  top:50%;
+  transform: translate(-50%, -50%);
+}
+.struttura-un-piano{
+  background-color: lightgreen;
+  width: 300px;
+  height: 10px;
+}
