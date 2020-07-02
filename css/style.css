@@ -3,6 +3,10 @@
   padding: 0;
   margin: 0;
 }
+header{
+  width: 1700px;
+  margin: auto;
+}
 .bar-top::after{
   clear: both;
   content: "";
@@ -19,8 +23,6 @@ a{
   background-color: #0e106c;
   text-align: center;
   line-height: 100px;
-  width: 1500px;
-  margin: auto;
   font-family: 'Roboto', sans-serif;
   font-size: 10px;
   color: white;
@@ -65,4 +67,32 @@ a{
 }
  #struttura-un-piano{
    background-color: #7fe619;
+ }
+ .header-center{
+   background-color: #0e106c;
+ }
+ .header-center::after{
+   clear: both;
+   content: "";
+   display: block;
+ }
+ .header-center h1{
+   margin-left: 230px;
+   color: white;
+   position: relative;
+   top: 100px;
+   font-family: 'Lato', sans-serif;
+   font-size: 50px;
+ }
+ .header-center img{
+   float: right;
+   height: 800px;
+   width: 1200px;
+ }
+ .header-center a{
+  position:relative;
+  left: 230px;
+  top:150px;
+  padding: 30px;
+
  }
