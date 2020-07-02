@@ -16,7 +16,7 @@ a{
   display: inline-block;
 }
 .bar-top{
-  background-color: blue;
+  background-color: #0e106c;
   text-align: center;
   line-height: 100px;
   width: 1500px;
@@ -27,46 +27,42 @@ a{
 }
 
 .logo-top{
-  margin: right 10px;
   float: left;
   width: 20%;
 }
-
+.logo-top img{
+  float: right;
+  margin-top: 20px;
+}
 .menu-top{
   float: left;
-  width: 40%;
+  width: 35%;
+  margin-left: 6%;
 }
 .menu-top li{
-  margin-left: 10px;
+  float: left;
+  margin-left: 20px;
+  margin-right: 0;
 }
 .menu-top a{
   color: white;
 }
 
 .right-top{
-  width: 40%;
+  width: 38%;
   float: left;
+  margin-left:1%;
 }
 .buttom{
-  height: 30px;
-  width: 100px;
+  border: white solid 1px;
   margin-left: 10px;
-  font-family: 'Roboto', sans-serif;
-  background-color: blue;
-  padding: 10%;
-  color: white;
-  border: white 1px solid;
+  padding-left:20px;
+  padding-right:20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
   border-radius: 10%;
-  position: relative;
+  color: white;
 }
-.buttom div{
-  position: absolute;
-  left: 50%;
-  top:50%;
-  transform: translate(-50%, -50%);
-}
-.struttura-un-piano{
-  background-color: lightgreen;
-  width: 300px;
-  height: 10px;
-}
+ #struttura-un-piano{
+   background-color: #7fe619;
+ }
