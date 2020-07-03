@@ -12,9 +12,6 @@ body{
   content: "";
   display: block;
 }
-a{
-  text-decoration: none;
-}
 .bar-top li{
   list-style: none;
   display: inline-block;
@@ -46,7 +43,8 @@ a{
   margin-left: 20px;
   margin-right: 0;
 }
-.menu-top a{
+header a{
+  text-decoration: none;
   color: white;
 }
 
@@ -111,6 +109,8 @@ a{
   width: 30%;
   float: left;
   text-align: center;
+  margin-left: 40px;
+  margin-top: 40px;
 }
 .top-main img{
   height: 200px;
@@ -127,4 +127,23 @@ a{
 }
 .top-main p{
   padding: 30px
+}
+.bottom-main::after{
+  clear: both;
+  content: "";
+  display: table;
+}
+.bottom-main div{
+  width: 40%;
+  float: left;
+  margin-left: 40px;
+  margin-top: 40px;
+}
+.bottom-main img{
+  margin-left: 60px;
+  height: 500px;
+  width: 500px;
+}
+.text{
+  margin-bottom: 20px;
 }
