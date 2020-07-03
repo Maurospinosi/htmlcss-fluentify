@@ -3,7 +3,7 @@
   padding: 0;
   margin: 0;
 }
-header{
+body{
   width: 1700px;
   margin: auto;
 }
@@ -60,9 +60,9 @@ a{
   margin-left: 10px;
   padding-left:20px;
   padding-right:20px;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  border-radius: 10%;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  border-radius: 5%;
   color: white;
 }
  #struttura-un-piano{
@@ -70,6 +70,11 @@ a{
  }
  .header-center{
    background-color: #0e106c;
+   background-image: url(../img/background-header.png);
+   background-position: 110% 100%;
+   background-repeat: no-repeat;
+   height: 600px;
+   background-size: 1200px 550px;
  }
  .header-center::after{
    clear: both;
@@ -80,19 +85,46 @@ a{
    margin-left: 230px;
    color: white;
    position: relative;
-   top: 100px;
+   top: 200px;
    font-family: 'Lato', sans-serif;
    font-size: 50px;
- }
- .header-center img{
-   float: right;
-   height: 800px;
-   width: 1200px;
  }
  .header-center a{
   position:relative;
   left: 230px;
-  top:150px;
-  padding: 30px;
-
+  top:250px;
+  padding: 15px;
  }
+.header-bottom{
+  line-height: 30px;
+  background-color: lightgrey;
+  text-align: center;
+  padding:30px;
+  font-family: 'Roboto', sans-serif;
+}
+.top-main::after{
+  clear: both;
+  content: "";
+  display: table;
+}
+.top-main div{
+  width: 30%;
+  float: left;
+  text-align: center;
+}
+.top-main img{
+  height: 200px;
+  width: 200px;
+}
+.top-main h2{
+  color: #7fe619;
+  font-family: 'Roboto', sans-serif;
+  margin-top: 15px;
+  margin-bottom: 25px;
+}
+.top-main hr{
+  margin: auto;
+}
+.top-main p{
+  padding: 30px
+}
