@@ -147,3 +147,42 @@ header a{
 .text{
   margin-bottom: 20px;
 }
+footer::after{
+  clear: both;
+  content: "";
+  display: table;
+}
+footer div{
+  float: left;
+}
+footer{
+  line-height: 60px;
+  background-color: lightgrey;
+  margin-bottom: 30px;
+}
+.footer-left{
+  font-family: 'Roboto', sans-serif;
+  width: 40%;
+  text-align: center;
+  margin-top: 30px;
+}
+.footer-center{
+  width: 40%;
+}
+.footer-center select{
+  background-color: lightgrey;
+}
+.footer-center ,label, select{
+ position: relative;
+ left: 250px;
+}
+.footer-right .buttom{
+  padding: 15px;
+  text-decoration: none;
+  background-color: #7fe619;
+}
+#help{
+  padding: 10px;
+  position: relative;
+  left: 68px;
+}
